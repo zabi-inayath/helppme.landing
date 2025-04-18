@@ -1,0 +1,27 @@
+.falling-text-container {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 2em;
+  overflow: hidden; /* Ensure scrolling within the container */
+}
+
+.falling-text-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Keep below everything */
+  pointer-events: none; /* Prevent blocking interactions */
+}
+
+.word {
+  display: inline-block;
+  margin: 0 2px;
+  user-select: none;
+}
+
+.highlighted {
+  color: cyan;
+  font-weight: bold;
+}

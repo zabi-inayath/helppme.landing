@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'DXRigraf-SemiBold';
+  src: url('../src/fonts/DXRigraf-SemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DXRigraf-Light';
+  src: url('../src/fonts/DXRigraf-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DXRigraf-Thin';
+  src: url('../src/fonts/DXRigraf-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'DXRigraf-SemiBold', sans-serif;
+}
+
+.DXRigraf {
+  font-family: 'DXRigraf-SemiBold', sans-serif;
+}
+
+.DXRigraf-light {
+  font-family: 'DXRigraf-Light', sans-serif;
+}
+
+.DXRigraf-Thin {
+  font-family: 'DXRigraf-Thin', sans-serif;
+}
+
+.snap-y {
+  overflow-y: scroll; /* Ensure vertical scroll works */
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling */
+}
