@@ -8,6 +8,7 @@ import { LayoutGroup, motion, AnimatePresence } from "framer-motion";
 import VariableProximity from "./page animations/Variable";
 import TrueFocus from "./page animations/TrueFocus";
 
+
 const PageOne = () => (
   <motion.div
     className="flex items-center justify-center h-screen bg-cream"
